@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Online Book Store</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://kit.fontawesome.com/b3e653bcb2.js" crossorigin="anonymous"></script>
+    <style>
+        /*extra small devices*/
+    @media screen and (max-width: 576px) {
+        .head1{
+    display:grid;
+    grid-template-columns:2fr 2fr ;
+}
+img{
+    width:95%;
+}
+    }
+.head2{
+    display:grid;
+    grid-template-columns:auto auto ;
+    }
+
+    /*small devices*/
+    @media screen and (min-width:577px) and (max-width:768px) {
+        .head1{
+    display:grid;
+    grid-template-columns:2fr 2fr 1fr;
+}
+
+.head2{
+    display:grid;
+    grid-template-columns:auto auto ;
+        }
+        img{
+    width:60%;
+}
+    }
+    .head2{
+    display:grid;
+    grid-template-columns:auto auto auto;
+}
+    </style>
+    
+</head>
+
+<body style="background-color: black;color:white;">
+    <section class="main">
+        <section class="head">
+            <section class="head1">
+                <a href="#"><img
+                        src="https://images.unsplash.com/photo-1589998059171-988d887df646?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJvb2t8ZW58MHx8MHx8fDA%3D"
+                        ></a>
+                <h1 class="h1">Online Book Store</h1>
+                <input type="search" placeholder="Search" aria-label="Search" style="width:65%;height:35%;margin:30px;border-radius: 15px;">
+            </section>
+            <section class="head2">
+                <a href="#">
+                    <p> <i class="fa-solid fa-location-dot"></i> Line No, Area, City, District, State </p>
+                </a>
+                <a href="#">
+                    <p><i class="fa-brands fa-chrome"></i> www.online-book-store.com</p>
+                </a>
+                <a href="#"><p><i class="fa-solid fa-phone"></i> +91 00000 00000</p></a>
+            </section>
+        </section>
+        <hr style="color:white;" >
+        <section class="sec1">
+            <br><br>
+            <div style="overflow-x:auto">
+                <table>
+                    <tr>
+                        <th>Book</th>
+                        <th>Author</th>
+                        <th>Year of Publishing </th>
+                        <th>Download</th>
+                    </tr>
+                    <tr>
+                        <td>Irrfan Khan: A Life in Movies</td>
+                        <td>Shubhra Gupta</td>
+                        <td>2023</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>The World: A Family History</td>
+                        <td>British historian Simon Sebag Montefiore</td>
+                        <td>2023</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                        <tr>
+                            <td>Ambedkar: A Life</td>
+                            <td>Shashi Tharoor</td>
+                            <td>2023</td>
+                            <td><a href="#">
+                                <i class="fa-solid fa-download"></i>
+                            </a></td>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <td>As Good As My Word</td>
+                        <td>KM Chandrashekhar</td>
+                        <td>2023</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>As Good As My Word</td>
+                        <td>	KM Chandrashekhar</td>
+                        <td>2023</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>Let’s Move Forward”</td>
+                        <td>Dr. Dinesh Prasad Saklani</td>
+                        <td>2023</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>The India Story</td>
+                        <td>Bimal Jalal</td>
+                        <td>2022</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>Leaders, Politicians, Citizens</td>
+                        <td>Rasheed Kidwai </td>
+                        <td>2022</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>Tiger of Drass: Capt. Anuj Nayyar, 23, Kargil Hero</td>
+                        <td>Meena Nayyar & Himmat Singh Shekhawat</td>
+                        <td>2022</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>Hear Yourself</td>
+                        <td>Indian Author Prem Rawat</td>
+                        <td>2022</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>Chinese Spies: From Chairman Mao to Xi Jinping</td>
+                        <td>Roger Faligot</td>
+                        <td>2022</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>India’s Women Unsung Heroes</td>
+                        <td>Meenakshi Lekhi</td>
+                        <td>2022</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>Vahana Masterclass</td>
+                        <td>Alfredo Covelli</td>
+                        <td>2021</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>By Many a Happy Accident: Recollections of a Life</td>
+                        <td>Former Vice President Mohammad Hamid Ansari</td>
+                        <td>2021</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>Unfinished</td>
+                        <td>Priyanka Chopra Jonas</td>
+                        <td>2021</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>Battle Ready for 21st Century</td>
+                        <td>Lt Gen AK Singh and Brig. Narendra Kumar</td>
+                        <td>2021</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>The Pregnancy Bible</td>
+                        <td>	Kareena Kapoor</td>
+                        <td>2022</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td>OPERATION KHUKRI</td>
+                        <td>Rajpal Punia & Ms Damini Punia</td>
+                        <td>2021</td>
+                        <td><a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a></td>
+                    </tr>
+                </table>
+            </div>
+            <br><br>
+        </section>
+        <hr style="color:white">
+        <footer>
+            <p> For More details and information visit our social media platforms</p>
+            <div class="foot">
+                <div><a href="#"><i class="fa-brands fa-instagram"></i> Online Book Store</a></div>
+            <div><a href="#"><i class="fa-brands fa-facebook"></i> Online Book Store</a></div>
+            <div><a href="#"><i class="fa-brands fa-x-twitter"></i> Online Book Store</a></div>
+            <div><a href="#"><i class="fa-brands fa-youtube"></i> Online Book Store</a></div>
+            <div><a href="#"><i class="fa-brands fa-chrome"></i> Online Book Store</a></div>
+            </div>
+        </footer>
+    </section>
+
+   
+</body>
+
+</html>

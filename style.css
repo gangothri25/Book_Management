@@ -1,0 +1,58 @@
+.main{
+    padding: 3px;
+}
+.head1{
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr;
+}
+
+.head2{
+    display:grid;
+    grid-template-columns:auto auto auto;
+}
+.head2 a{
+    text-decoration: none;
+    color:white;
+}
+img{
+    width:60%;
+}
+.h1{
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+}
+.sec1{
+    padding: 30px;
+}
+table ,th,td{
+    border:1px solid;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{ 
+    padding: 15px;
+    font-size:25px;
+}
+td{
+    padding: 15px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px;
+}
+.fa-solid{
+    color:white;
+}
+footer a{
+    color:gray;
+    text-decoration: none;
+}
+footer a:hover{
+    color:blue;
+}
+.foot{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 8px;
+}
